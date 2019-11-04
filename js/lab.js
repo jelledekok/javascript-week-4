@@ -6,9 +6,17 @@ function halloWereld(aantal){
 
 halloWereld(3);
 halloWereld(7);
-var a = prompt('vul een getal in');
-var b = prompt('vul een getal in');
-function brekening(){
-for(var  a + b);
+var a = parseInt(prompt('vul een getal in'));
+var b = parseInt(prompt('vul een getal in'));
+
+
+
+document.write(a + " + " + b + " = " + addition(a,b));
+
+
+
+function addition(number1, number2){
+	return number1 + number2;
 }
-brekening();
+
+
